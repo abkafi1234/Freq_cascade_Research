@@ -1,0 +1,5 @@
+{"base": "nn", "n_cap": 500, "macro_f1": 0.158, "macro_recall": 0.175, "own_node_miss": 0.02, "early_capture": 0.98, "fp_first_quartile": 0.879, "note": "run log 2026-09-08"}
+{"base": "nn", "n_cap": 1000, "macro_f1": 0.214, "macro_recall": null, "own_node_miss": 0.029, "early_capture": 0.971, "fp_first_quartile": null, "note": "run log 2026-09-08"}
+{"base": "nn", "n_cap": 2000, "macro_f1": 0.289, "macro_recall": null, "own_node_miss": 0.046, "early_capture": 0.954, "fp_first_quartile": null, "note": "run log 2026-09-08"}
+{"base": "nn", "n_cap": 4000, "macro_f1": 0.373, "macro_recall": null, "own_node_miss": 0.076, "early_capture": 0.924, "fp_first_quartile": null, "note": "run log 2026-09-08"}
+{"base": "nn", "n_cap": 8000, "macro_f1": 0.424, "macro_recall": null, "own_node_miss": 0.112, "early_capture": 0.888, "fp_first_quartile": null, "note": "run log 2026-09-08"}

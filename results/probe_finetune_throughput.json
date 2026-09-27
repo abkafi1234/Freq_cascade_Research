@@ -1,0 +1,110 @@
+{
+ "setup": {
+  "max_len": 256,
+  "batch": 16,
+  "steps": 40,
+  "dtype": "bf16",
+  "corpus": "wos46985",
+  "gpu": "NVIDIA GeForce RTX 3050"
+ },
+ "microsoft/deberta-v3-base": {
+  "fixed": {
+   "samples_per_s": 33.8,
+   "real_tokens_per_s": 7362,
+   "peak_mem_gb": 6.95,
+   "loss_finite": true
+  },
+  "dynamic": {
+   "samples_per_s": 38.3,
+   "real_tokens_per_s": 8483,
+   "peak_mem_gb": 6.94,
+   "loss_finite": true
+  }
+ },
+ "FacebookAI/roberta-base": {
+  "fixed": {
+   "samples_per_s": 62.8,
+   "real_tokens_per_s": 14011,
+   "peak_mem_gb": 3.43,
+   "loss_finite": true
+  },
+  "dynamic": {
+   "samples_per_s": 72.1,
+   "real_tokens_per_s": 16276,
+   "peak_mem_gb": 3.44,
+   "loss_finite": true
+  }
+ },
+ "answerdotai/ModernBERT-base": {
+  "fixed": {
+   "samples_per_s": 37.9,
+   "real_tokens_per_s": 8383,
+   "peak_mem_gb": 4.69,
+   "loss_finite": true
+  },
+  "dynamic": {
+   "samples_per_s": 42.2,
+   "real_tokens_per_s": 9458,
+   "peak_mem_gb": 4.72,
+   "loss_finite": true
+  }
+ },
+ "corpus_tokens": {
+  "clinc150": {
+   "n_docs": 18025,
+   "tokens": 195553,
+   "mean_len": 10.8,
+   "frac_truncated": 0.0,
+   "max_len": 64
+  },
+  "20newsgroups_ir50": {
+   "n_docs": 5272,
+   "tokens": 1202576,
+   "mean_len": 228.1,
+   "frac_truncated": 0.664,
+   "max_len": 256
+  },
+  "wos46985": {
+   "n_docs": 46985,
+   "tokens": 10253637,
+   "mean_len": 218.2,
+   "frac_truncated": 0.477,
+   "max_len": 256
+  },
+  "ohsumed_23": {
+   "n_docs": 23166,
+   "tokens": 4631402,
+   "mean_len": 199.9,
+   "frac_truncated": 0.395,
+   "max_len": 256
+  },
+  "drug_reviews": {
+   "n_docs": 49995,
+   "tokens": 5574780,
+   "mean_len": 111.5,
+   "frac_truncated": 0.002,
+   "max_len": 256
+  },
+  "reuters21578": {
+   "n_docs": 10788,
+   "tokens": 1485761,
+   "mean_len": 137.7,
+   "frac_truncated": 0.184,
+   "max_len": 256
+  },
+  "hoc": {
+   "n_docs": 1580,
+   "tokens": 381521,
+   "mean_len": 241.5,
+   "frac_truncated": 0.708,
+   "max_len": 256
+  },
+  "litcovid": {
+   "n_docs": 33699,
+   "tokens": 7567409,
+   "mean_len": 224.6,
+   "frac_truncated": 0.598,
+   "max_len": 256
+  }
+ }
+}

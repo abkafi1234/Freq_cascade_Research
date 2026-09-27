@@ -1,0 +1,14 @@
+The data files in this repository -- everything under results/, SI/, figures/ and folds/ --
+are licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+
+    https://creativecommons.org/licenses/by/4.0/
+    Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt them for any purpose, including commercially, provided you give
+appropriate credit. Please cite the paper (see CITATION.cff).
+
+This licence covers our measurements, tables, figures and partition indices. It does NOT
+cover the eight benchmark corpora, none of which is redistributed here: each remains under
+the terms of its original distributor, listed in README.md.
+
+The code in tools/ is under the MIT licence (see LICENSE).

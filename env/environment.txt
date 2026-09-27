@@ -1,0 +1,11 @@
+Machine that produced all results up to the pause (2026-09-16 21:40)
+
+OS          Windows 11 Home 10.0.26200
+Python      3.12.10
+PyTorch     2.11.0+cu128 (CUDA 12.8, cuDNN 9.19)
+GPU         NVIDIA GeForce RTX 4070, 12 GB, driver 616.64
+freqcascade 0.2.0, editable install; base commit d46e5ce on branch
+            fix/correctness-and-determinism, plus UNCOMMITTED changes (see
+            freqcascade: git status). Nothing has been pushed.
+Neural settings used throughout: M = 25 ensemble members, 150 epochs, n_cap = 2000,
+100 trees, TF-IDF 10k features, CV seed 20260905.
