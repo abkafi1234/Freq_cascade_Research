@@ -1,0 +1,6 @@
+source_file,dataset,encoder,metric,silhouette,subsample,subsample_seed
+separability.jsonl,clinc150,all-MiniLM-L6-v2 (frozen),cosine,0.2123686820268631,4000,0
+separability.jsonl,20newsgroups_ir50,all-MiniLM-L6-v2 (frozen),cosine,0.0675259530544281,4000,0
+separability.jsonl,ohsumed_23,all-MiniLM-L6-v2 (frozen),cosine,-0.03229990601539612,4000,0
+separability.jsonl,drug_reviews,all-MiniLM-L6-v2 (frozen),cosine,-0.08262565732002258,4000,0
+separability.jsonl,wos46985,all-MiniLM-L6-v2 (frozen),cosine,0.005208350718021393,4000,0
