@@ -1,0 +1,5 @@
+{"dataset": "clinc150", "silhouette": 0.2123686820268631, "encoder": "all-MiniLM-L6-v2 (frozen)", "metric": "cosine", "subsample": 4000, "subsample_seed": 0}
+{"dataset": "20newsgroups_ir50", "silhouette": 0.0675259530544281, "encoder": "all-MiniLM-L6-v2 (frozen)", "metric": "cosine", "subsample": 4000, "subsample_seed": 0}
+{"dataset": "ohsumed_23", "silhouette": -0.03229990601539612, "encoder": "all-MiniLM-L6-v2 (frozen)", "metric": "cosine", "subsample": 4000, "subsample_seed": 0}
+{"dataset": "drug_reviews", "silhouette": -0.08262565732002258, "encoder": "all-MiniLM-L6-v2 (frozen)", "metric": "cosine", "subsample": 4000, "subsample_seed": 0}
+{"dataset": "wos46985", "silhouette": 0.005208350718021393, "encoder": "all-MiniLM-L6-v2 (frozen)", "metric": "cosine", "subsample": 4000, "subsample_seed": 0}
